@@ -14,6 +14,7 @@
 		7F67EA2F1C7EDE2A0008AAEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F67EA2D1C7EDE2A0008AAEB /* LaunchScreen.storyboard */; };
 		7F67EA3A1C7EDE2A0008AAEB /* TumblrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F67EA391C7EDE2A0008AAEB /* TumblrTests.swift */; };
 		7F67EA451C7EDE2A0008AAEB /* TumblrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F67EA441C7EDE2A0008AAEB /* TumblrUITests.swift */; };
+		7F67EA531C7EE0290008AAEB /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F67EA521C7EE0290008AAEB /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7F67EA401C7EDE2A0008AAEB /* TumblrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TumblrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F67EA441C7EDE2A0008AAEB /* TumblrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TumblrUITests.swift; sourceTree = "<group>"; };
 		7F67EA461C7EDE2A0008AAEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F67EA521C7EE0290008AAEB /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				7F67EA241C7EDE2A0008AAEB /* AppDelegate.swift */,
 				7F67EA261C7EDE2A0008AAEB /* ViewController.swift */,
 				7F67EA281C7EDE2A0008AAEB /* Main.storyboard */,
+				7F67EA521C7EE0290008AAEB /* TabBarViewController.swift */,
 				7F67EA2B1C7EDE2A0008AAEB /* Assets.xcassets */,
 				7F67EA2D1C7EDE2A0008AAEB /* LaunchScreen.storyboard */,
 				7F67EA301C7EDE2A0008AAEB /* Info.plist */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F67EA271C7EDE2A0008AAEB /* ViewController.swift in Sources */,
+				7F67EA531C7EE0290008AAEB /* TabBarViewController.swift in Sources */,
 				7F67EA251C7EDE2A0008AAEB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
