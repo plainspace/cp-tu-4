@@ -41,6 +41,7 @@
                                         <state key="normal" image="compose_button"/>
                                         <connections>
                                             <action selector="didPressTab:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VRa-bd-zAE"/>
+                                            <segue destination="DS4-gz-CiM" kind="modal" id="z8I-xd-dn6"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="WQV-fd-sWK">
@@ -185,6 +186,14 @@
                         </subviews>
                         <color key="backgroundColor" red="0.1529411765" green="0.1960784314" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="chatButton" destination="Rsu-9S-mgk" id="GN7-QK-K6j"/>
+                        <outlet property="linkButton" destination="QuE-ag-Q40" id="Upr-4z-sQY"/>
+                        <outlet property="photoButton" destination="oFr-e4-G41" id="sBR-cu-jic"/>
+                        <outlet property="quoteButton" destination="vgp-WA-KkH" id="H7Q-Ba-SZT"/>
+                        <outlet property="textButton" destination="1Cc-Fz-pc1" id="kDj-dN-3FR"/>
+                        <outlet property="videoButton" destination="ahh-wz-3OI" id="ggn-dm-pHg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="inp-Ve-YMf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
